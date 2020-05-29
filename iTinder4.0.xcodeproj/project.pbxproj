@@ -15,10 +15,12 @@
 		F157ABB6247185A400219B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F157ABB4247185A400219B9A /* LaunchScreen.storyboard */; };
 		F157ABBE2473213500219B9A /* EventsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157ABBD2473213500219B9A /* EventsData.swift */; };
 		F1AC814B2481405400BE0ADA /* CircleTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC814A2481405300BE0ADA /* CircleTab.swift */; };
+		F1AC8154248154B700BE0ADA /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = F1AC8153248154B700BE0ADA /* missions.json */; };
+		F1AC8156248154BC00BE0ADA /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = F1AC8155248154BC00BE0ADA /* astronauts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F157ABA6247185A100219B9A /* iTinder4.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTinder4.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F157ABA6247185A100219B9A /* iTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F157ABA9247185A100219B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F157ABAB247185A100219B9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F157ABAD247185A100219B9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +30,10 @@
 		F157ABB7247185A400219B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F157ABBD2473213500219B9A /* EventsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsData.swift; sourceTree = "<group>"; };
 		F1AC814A2481405300BE0ADA /* CircleTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTab.swift; sourceTree = "<group>"; };
+		F1AC8151248150BF00BE0ADA /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		F1AC8152248150BF00BE0ADA /* teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
+		F1AC8153248154B700BE0ADA /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = missions.json; path = "../../../../Downloads/HackingWithSwift-master/SwiftUI/project8-files/missions.json"; sourceTree = "<group>"; };
+		F1AC8155248154BC00BE0ADA /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = astronauts.json; path = "../../../../Downloads/HackingWithSwift-master/SwiftUI/project8-files/astronauts.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,7 @@
 		F157ABA7247185A100219B9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F157ABA6247185A100219B9A /* iTinder4.0.app */,
+				F157ABA6247185A100219B9A /* iTinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +71,7 @@
 				F157ABBD2473213500219B9A /* EventsData.swift */,
 				F157ABAD247185A100219B9A /* ContentView.swift */,
 				F1AC814A2481405300BE0ADA /* CircleTab.swift */,
+				F1AC8150248150BF00BE0ADA /* Data */,
 				F157ABAF247185A400219B9A /* Assets.xcassets */,
 				F157ABB4247185A400219B9A /* LaunchScreen.storyboard */,
 				F157ABB7247185A400219B9A /* Info.plist */,
@@ -79,6 +86,17 @@
 				F157ABB2247185A400219B9A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1AC8150248150BF00BE0ADA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F1AC8152248150BF00BE0ADA /* teams.json */,
+				F1AC8155248154BC00BE0ADA /* astronauts.json */,
+				F1AC8153248154B700BE0ADA /* missions.json */,
+				F1AC8151248150BF00BE0ADA /* users.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,7 +116,7 @@
 			);
 			name = iTinder4.0;
 			productName = iTinder4.0;
-			productReference = F157ABA6247185A100219B9A /* iTinder4.0.app */;
+			productReference = F157ABA6247185A100219B9A /* iTinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,6 +159,8 @@
 			files = (
 				F157ABB6247185A400219B9A /* LaunchScreen.storyboard in Resources */,
 				F157ABB3247185A400219B9A /* Preview Assets.xcassets in Resources */,
+				F1AC8154248154B700BE0ADA /* missions.json in Resources */,
+				F1AC8156248154BC00BE0ADA /* astronauts.json in Resources */,
 				F157ABB0247185A400219B9A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,9 +322,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myrzaboi.iTinder4-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iTinder;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,9 +342,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myrzaboi.iTinder4-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iTinder;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
