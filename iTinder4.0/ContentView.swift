@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @State var index = 0
     var body: some View {
         VStack(spacing: 0) {
@@ -23,8 +24,7 @@ struct ContentView: View {
                     Color.yellow
                 }
                 else if self.index == 2{
-                    
-                    Color.blue
+                    TeamsView()
                 }
                 else{
                     
