@@ -11,29 +11,25 @@ import SwiftUI
 struct ContentView: View {
     
     @State var index = 0
+    
     var body: some View {
         VStack(spacing: 0) {
             ZStack{
-                
                 if self.index == 0{
-                    
-                    Color.black.opacity(0.05)
+                    EventsView(showEvent: Edata)
                 }
                 else if self.index == 1{
-                    
-                    Color.yellow
+                    ProjectsView(showProject: Pdata)
                 }
                 else if self.index == 2{
-                    TeamsView()
+                    TeamsView(showTeam: Tdata)
                 }
                 else{
-                    
-                    Color.orange
+                    RegistrationView()
                 }
             }
             CircleTab(index: self.$index)
-        }
-        .edgesIgnoringSafeArea(.top)
+        }//.edgesIgnoringSafeArea(.top)
     }
 }
 

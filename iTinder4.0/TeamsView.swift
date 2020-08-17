@@ -9,33 +9,59 @@
 import SwiftUI
 
 struct TeamsView: View {
+    @ObservedObject var team = Teams()
     
-    let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
-    let missions: [Mission] = Bundle.main.decode("missions.json")
+    var showTeam : [TeamsData] = []
     
     var body: some View {
         NavigationView {
-            List(missions) { mission in
-                NavigationLink(destination: SingleTeamView(mission: mission, astronauts: self.astronauts)) {
-                    Image(mission.image)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 44, height: 44)
-                    
-                    VStack(alignment: .leading) {
-                        Text(mission.displayName)
-                            .font(.headline)
-                        Text(mission.formattedLaunchDate)
-                    }
-                }
-            }
-            .navigationBarTitle("Moonshot")
+            List(showTeam) { team in
+                TeamCell(team: team)
+            }.navigationBarTitle("Команды")
         }
     }
 }
 
 struct TeamsView_Previews: PreviewProvider {
     static var previews: some View {
-        TeamsView()
+        TeamsView(showTeam: Tdata)
+    }
+}
+
+struct TeamCell: View {
+    var team: TeamsData
+    var body: some View {
+        return NavigationLink(
+            destination: TeamDetail(team: team.team, motto: team.motto, description: team.description, numberOfParticipants: team.numberOfParticipants, imageName: team.imageName)) {
+            HStack {
+                HStack {
+                    Image(team.imageName).resizable()
+                        .frame(width: 90.0, height: 90.0)
+                        .clipShape(Circle())
+                        .overlay(Circle().stroke(Color.gray, lineWidth: 1))
+                    VStack(alignment: .leading) {
+                        Text(team.team).font(.headline)
+                            
+                            .layoutPriority(1)
+                        Text(team.motto).font(.subheadline)
+                            .padding(.top, 3)
+                        Spacer()
+                        
+                        HStack {
+                            Image(systemName: "person")
+                            Text("\(team.numberOfParticipants)")
+                        }
+                    }
+                    Spacer()
+                }
+                Spacer()
+                HStack {
+                    Button ("Join!")  {
+                        
+                    }.padding()
+                    .clipShape(Circle())
+                }
+            }
+        }
     }
 }

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B47CC1C6566092004AFAA2B8 /* Pods_iTinder4_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494236DDD429A8BB999C6436 /* Pods_iTinder4_0.framework */; };
+		F10B772824EB143500C7006C /* TeamsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B772724EB143500C7006C /* TeamsData.swift */; };
+		F10B772A24EB149B00C7006C /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B772924EB149B00C7006C /* EventsView.swift */; };
+		F10B772C24EB14C600C7006C /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B772B24EB14C600C7006C /* EventDetail.swift */; };
+		F10B772E24EB150F00C7006C /* UsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B772D24EB150F00C7006C /* UsersData.swift */; };
+		F10B773024EB17F600C7006C /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B772F24EB17F600C7006C /* RegistrationView.swift */; };
+		F10B773224EB189200C7006C /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B773124EB189200C7006C /* UserView.swift */; };
+		F10B773424EB192D00C7006C /* TeamDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B773324EB192D00C7006C /* TeamDetail.swift */; };
+		F10B773624EB195700C7006C /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B773524EB195700C7006C /* ProjectsView.swift */; };
+		F10B773824EB197E00C7006C /* ProjectsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B773724EB197E00C7006C /* ProjectsData.swift */; };
+		F10B773A24EB19A500C7006C /* ProjectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B773924EB19A500C7006C /* ProjectDetail.swift */; };
 		F157ABAA247185A100219B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157ABA9247185A100219B9A /* AppDelegate.swift */; };
 		F157ABAC247185A100219B9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157ABAB247185A100219B9A /* SceneDelegate.swift */; };
 		F157ABAE247185A100219B9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157ABAD247185A100219B9A /* ContentView.swift */; };
@@ -14,16 +25,25 @@
 		F157ABB3247185A400219B9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F157ABB2247185A400219B9A /* Preview Assets.xcassets */; };
 		F157ABB6247185A400219B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F157ABB4247185A400219B9A /* LaunchScreen.storyboard */; };
 		F157ABBE2473213500219B9A /* EventsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157ABBD2473213500219B9A /* EventsData.swift */; };
+		F17C764524EB1CC90034FFE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F17C764424EB1CC90034FFE8 /* GoogleService-Info.plist */; };
 		F1AC814B2481405400BE0ADA /* CircleTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC814A2481405300BE0ADA /* CircleTab.swift */; };
-		F1AC815C24815A3900BE0ADA /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC815B24815A3900BE0ADA /* Bundle-Decodable.swift */; };
 		F1AC8161248168BA00BE0ADA /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC8160248168BA00BE0ADA /* TeamsView.swift */; };
-		F1AC816324816CBB00BE0ADA /* SingleTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC816224816CBB00BE0ADA /* SingleTeamView.swift */; };
-		F1AC81652481725600BE0ADA /* SingleUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC81642481725600BE0ADA /* SingleUserView.swift */; };
-		F1AC81692481757600BE0ADA /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC81682481757600BE0ADA /* Astronaut.swift */; };
-		F1AC816B2481759B00BE0ADA /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC816A2481759B00BE0ADA /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		494236DDD429A8BB999C6436 /* Pods_iTinder4_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTinder4_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BBFFBE7DDBFED0513A02EE /* Pods-iTinder4.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTinder4.0.release.xcconfig"; path = "Target Support Files/Pods-iTinder4.0/Pods-iTinder4.0.release.xcconfig"; sourceTree = "<group>"; };
+		91D30C67ABD9C19594268642 /* Pods-iTinder4.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTinder4.0.debug.xcconfig"; path = "Target Support Files/Pods-iTinder4.0/Pods-iTinder4.0.debug.xcconfig"; sourceTree = "<group>"; };
+		F10B772724EB143500C7006C /* TeamsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsData.swift; sourceTree = "<group>"; };
+		F10B772924EB149B00C7006C /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		F10B772B24EB14C600C7006C /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		F10B772D24EB150F00C7006C /* UsersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersData.swift; sourceTree = "<group>"; };
+		F10B772F24EB17F600C7006C /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		F10B773124EB189200C7006C /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		F10B773324EB192D00C7006C /* TeamDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetail.swift; sourceTree = "<group>"; };
+		F10B773524EB195700C7006C /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		F10B773724EB197E00C7006C /* ProjectsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsData.swift; sourceTree = "<group>"; };
+		F10B773924EB19A500C7006C /* ProjectDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetail.swift; sourceTree = "<group>"; };
 		F157ABA6247185A100219B9A /* iTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F157ABA9247185A100219B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F157ABAB247185A100219B9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,15 +53,9 @@
 		F157ABB5247185A400219B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F157ABB7247185A400219B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F157ABBD2473213500219B9A /* EventsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsData.swift; sourceTree = "<group>"; };
+		F17C764424EB1CC90034FFE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F1AC814A2481405300BE0ADA /* CircleTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTab.swift; sourceTree = "<group>"; };
-		F1AC815B24815A3900BE0ADA /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		F1AC8160248168BA00BE0ADA /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
-		F1AC816224816CBB00BE0ADA /* SingleTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTeamView.swift; sourceTree = "<group>"; };
-		F1AC81642481725600BE0ADA /* SingleUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleUserView.swift; sourceTree = "<group>"; };
-		F1AC81662481743B00BE0ADA /* missions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
-		F1AC81672481743F00BE0ADA /* astronauts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
-		F1AC81682481757600BE0ADA /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
-		F1AC816A2481759B00BE0ADA /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +63,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B47CC1C6566092004AFAA2B8 /* Pods_iTinder4_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F5FBA7DB1D91BBDFD86E506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494236DDD429A8BB999C6436 /* Pods_iTinder4_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FF1ABB7E88F6B94AC5BE943 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91D30C67ABD9C19594268642 /* Pods-iTinder4.0.debug.xcconfig */,
+				87BBFFBE7DDBFED0513A02EE /* Pods-iTinder4.0.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F157AB9D247185A100219B9A = {
 			isa = PBXGroup;
 			children = (
 				F157ABA8247185A100219B9A /* iTinder4.0 */,
 				F157ABA7247185A100219B9A /* Products */,
+				5FF1ABB7E88F6B94AC5BE943 /* Pods */,
+				4F5FBA7DB1D91BBDFD86E506 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,18 +112,22 @@
 				F157ABA9247185A100219B9A /* AppDelegate.swift */,
 				F157ABAB247185A100219B9A /* SceneDelegate.swift */,
 				F157ABBD2473213500219B9A /* EventsData.swift */,
+				F10B772924EB149B00C7006C /* EventsView.swift */,
 				F157ABAD247185A100219B9A /* ContentView.swift */,
 				F1AC8160248168BA00BE0ADA /* TeamsView.swift */,
-				F1AC816224816CBB00BE0ADA /* SingleTeamView.swift */,
-				F1AC81642481725600BE0ADA /* SingleUserView.swift */,
-				F1AC816A2481759B00BE0ADA /* Mission.swift */,
-				F1AC81682481757600BE0ADA /* Astronaut.swift */,
-				F1AC815B24815A3900BE0ADA /* Bundle-Decodable.swift */,
+				F10B773324EB192D00C7006C /* TeamDetail.swift */,
+				F10B773524EB195700C7006C /* ProjectsView.swift */,
+				F10B773724EB197E00C7006C /* ProjectsData.swift */,
+				F10B773924EB19A500C7006C /* ProjectDetail.swift */,
+				F10B772B24EB14C600C7006C /* EventDetail.swift */,
+				F10B772D24EB150F00C7006C /* UsersData.swift */,
+				F10B772F24EB17F600C7006C /* RegistrationView.swift */,
+				F10B773124EB189200C7006C /* UserView.swift */,
+				F10B772724EB143500C7006C /* TeamsData.swift */,
 				F1AC814A2481405300BE0ADA /* CircleTab.swift */,
-				F1AC81662481743B00BE0ADA /* missions.json */,
-				F1AC81672481743F00BE0ADA /* astronauts.json */,
 				F157ABAF247185A400219B9A /* Assets.xcassets */,
 				F157ABB4247185A400219B9A /* LaunchScreen.storyboard */,
+				F17C764424EB1CC90034FFE8 /* GoogleService-Info.plist */,
 				F157ABB7247185A400219B9A /* Info.plist */,
 				F157ABB1247185A400219B9A /* Preview Content */,
 			);
@@ -110,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F157ABBA247185A400219B9A /* Build configuration list for PBXNativeTarget "iTinder4.0" */;
 			buildPhases = (
+				2C30F8B62FFC05B9065C393C /* [CP] Check Pods Manifest.lock */,
 				F157ABA2247185A100219B9A /* Sources */,
 				F157ABA3247185A100219B9A /* Frameworks */,
 				F157ABA4247185A100219B9A /* Resources */,
+				F38306BC1829BCB9D5A09DDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,7 +171,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "алтынпончик";
 				TargetAttributes = {
 					F157ABA5247185A100219B9A = {
@@ -162,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F157ABB6247185A400219B9A /* LaunchScreen.storyboard in Resources */,
+				F17C764524EB1CC90034FFE8 /* GoogleService-Info.plist in Resources */,
 				F157ABB3247185A400219B9A /* Preview Assets.xcassets in Resources */,
 				F157ABB0247185A400219B9A /* Assets.xcassets in Resources */,
 			);
@@ -169,22 +211,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C30F8B62FFC05B9065C393C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTinder4.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F38306BC1829BCB9D5A09DDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTinder4.0/Pods-iTinder4.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTinder4.0/Pods-iTinder4.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTinder4.0/Pods-iTinder4.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F157ABA2247185A100219B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F1AC8161248168BA00BE0ADA /* TeamsView.swift in Sources */,
+				F10B772C24EB14C600C7006C /* EventDetail.swift in Sources */,
+				F10B773824EB197E00C7006C /* ProjectsData.swift in Sources */,
 				F157ABAA247185A100219B9A /* AppDelegate.swift in Sources */,
+				F10B773024EB17F600C7006C /* RegistrationView.swift in Sources */,
+				F10B773624EB195700C7006C /* ProjectsView.swift in Sources */,
+				F10B772824EB143500C7006C /* TeamsData.swift in Sources */,
 				F157ABAC247185A100219B9A /* SceneDelegate.swift in Sources */,
-				F1AC81692481757600BE0ADA /* Astronaut.swift in Sources */,
+				F10B773A24EB19A500C7006C /* ProjectDetail.swift in Sources */,
 				F1AC814B2481405400BE0ADA /* CircleTab.swift in Sources */,
-				F1AC816324816CBB00BE0ADA /* SingleTeamView.swift in Sources */,
-				F1AC816B2481759B00BE0ADA /* Mission.swift in Sources */,
-				F1AC81652481725600BE0ADA /* SingleUserView.swift in Sources */,
 				F157ABBE2473213500219B9A /* EventsData.swift in Sources */,
-				F1AC815C24815A3900BE0ADA /* Bundle-Decodable.swift in Sources */,
+				F10B773424EB192D00C7006C /* TeamDetail.swift in Sources */,
 				F157ABAE247185A100219B9A /* ContentView.swift in Sources */,
+				F10B772E24EB150F00C7006C /* UsersData.swift in Sources */,
+				F10B772A24EB149B00C7006C /* EventsView.swift in Sources */,
+				F10B773224EB189200C7006C /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +317,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -288,6 +378,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -318,6 +409,7 @@
 		};
 		F157ABBB247185A400219B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D30C67ABD9C19594268642 /* Pods-iTinder4.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -338,6 +430,7 @@
 		};
 		F157ABBC247185A400219B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BBFFBE7DDBFED0513A02EE /* Pods-iTinder4.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
